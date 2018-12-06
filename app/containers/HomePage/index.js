@@ -76,10 +76,6 @@ export class HomePage extends React.PureComponent {
             </H2>
             <Form onSubmit={this.props.onSubmitForm}>
               <label htmlFor="username">
-                <FormattedMessage {...messages.trymeMessage} />
-                <AtPrefix>
-                  <FormattedMessage {...messages.trymeAtPrefix} />
-                </AtPrefix>
                 <Input
                   id="username"
                   type="text"
